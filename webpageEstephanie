@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interprix United LLC | Reliable Freight Logistics & Brokerage</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Use Inter font family -->
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #fcfcfc;
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <!-- Navigation Bar -->
+    <nav class="bg-white shadow-md sticky top-0 z-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo/Brand -->
+                <a href="#" class="flex items-center space-x-2">
+                    <svg class="h-8 w-8 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
+                    </svg>
+                    <span class="text-xl font-extrabold text-gray-900">Interprix United LLC</span>
+                </a>
+                <!-- Desktop Links (Placeholder structure) -->
+                <div class="hidden sm:ml-6 sm:flex sm:space-x-8">
+                    <a href="#services" class="text-gray-500 hover:text-blue-600 px-3 py-2 text-sm font-medium transition duration-150">Services</a>
+                    <a href="#mission" class="text-gray-500 hover:text-blue-600 px-3 py-2 text-sm font-medium transition duration-150">Why Interprix</a>
+                    <a href="#contact" class="text-gray-500 hover:text-blue-600 px-3 py-2 text-sm font-medium transition duration-150">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-gray-900 text-white py-20 sm:py-32">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="max-w-3xl mx-auto">
+                <h1 class="text-4xl sm:text-6xl font-extrabold leading-tight mb-4">
+                    Reliable Freight Movement, <span class="text-blue-400">Nationwide Coverage.</span>
+                </h1>
+                <p class="text-lg sm:text-xl text-gray-300 mb-8">
+                    Interprix United LLC is your licensed partner for time-sensitive freight logistics and transportation brokerage across the United States. We deliver on time, every time.
+                </p>
+                <a href="#contact" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg shadow-lg transition duration-300 transform hover:scale-105">
+                    Get a Free Quote Today
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16 sm:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-900 sm:text-4xl">Our Transportation Services</h2>
+                <p class="mt-4 text-xl text-gray-500">
+                    Specializing in efficient, secure, and compliant logistics brokerage.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+                <!-- Service 1: Full Truckload (FTL) -->
+                <div class="p-6 bg-gray-50 rounded-xl shadow-md hover:shadow-xl transition duration-300 border-t-4 border-blue-600">
+                    <svg class="h-10 w-10 text-blue-600 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 17l4 4 4-4m-4-5v9m-4-10H3a2 2 0 00-2 2v8a2 2 0 002 2h2m-2-8h16a2 2 0 002-2V7a2 2 0 00-2-2H3a2 2 0 00-2 2v8" /></svg>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Full Truckload (FTL)</h3>
+                    <p class="text-gray-600 text-sm">Dedicated capacity for large shipments. We source the right equipment and carrier for maximum efficiency and security, ensuring direct transit.</p>
+                </div>
+
+                <!-- Service 2: Time-Sensitive & Expedited -->
+                <div class="p-6 bg-gray-50 rounded-xl shadow-md hover:shadow-xl transition duration-300 border-t-4 border-red-500">
+                    <svg class="h-10 w-10 text-red-500 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Time-Sensitive</h3>
+                    <p class="text-gray-600 text-sm">Need it moved now? Our brokerage expertise handles critical, last-minute, or time-definite freight, prioritizing speed and safe delivery.</p>
+                </div>
+
+                <!-- Service 3: Logistics Brokerage & Compliance -->
+                <div class="p-6 bg-gray-50 rounded-xl shadow-md hover:shadow-xl transition duration-300 border-t-4 border-green-500">
+                    <svg class="h-10 w-10 text-green-500 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 4.016M2.944 12c0 4.291 1.13 8.214 3.12 11.332M12 22.056c-4.291 0-8.214-1.13-11.332-3.12M22.056 12c0-4.291-1.13-8.214-3.12-11.332" /></svg>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Brokerage & Vetting</h3>
+                    <p class="text-gray-600 text-sm">As a licensed brokerage firm, we handle carrier vetting, contract negotiation, and logistics planning, ensuring all movements are compliant.</p>
+                </div>
+
+                <!-- Service 4: Real-Time Communication -->
+                <div class="p-6 bg-gray-50 rounded-xl shadow-md hover:shadow-xl transition duration-300 border-t-4 border-yellow-500">
+                    <svg class="h-10 w-10 text-yellow-500 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586M2 9h4.586a2 2 0 011.414.586L10 12.414V17a2 2 0 002 2h6" /></svg>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">24/7 Dispatch Support</h3>
+                    <p class="text-gray-600 text-sm">Seamless, proactive communication is our promise. We provide real-time updates and support from load booking to final delivery.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Interprix Section (Mission) -->
+    <section id="mission" class="py-16 sm:py-24 bg-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:grid lg:grid-cols-3 lg:gap-12 items-center">
+                
+                <!-- Image Placeholder for visual appeal -->
+                <div class="lg:col-span-1 mb-8 lg:mb-0">
+                    <div class="bg-gray-200 h-64 rounded-xl flex items-center justify-center shadow-lg">
+                        <svg class="w-20 h-20 text-blue-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.828 0l-4.243-4.243m10.121-6.121L13.414 8.9a1.998 1.998 0 00-2.828 0L6.343 15.657m10.121-6.121L13.414 8.9m0 0L9.172 4.657" />
+                        </svg>
+                    </div>
+                </div>
+
+                <!-- Content -->
+                <div class="lg:col-span-2">
+                    <span class="text-sm font-semibold text-blue-600 uppercase tracking-wider">Our Core Commitment</span>
+                    <h2 class="mt-2 text-3xl font-bold text-gray-900 sm:text-4xl">
+                        Licensed, Verified, and Dedicated to Your Success
+                    </h2>
+                    <p class="mt-4 text-gray-600 text-lg">
+                        In the fast-paced world of logistics, trust and licensing matter. Interprix United LLC is a fully licensed broker committed to removing complexity and risk from your supply chain. We vet every carrier partner, monitor compliance, and ensure your cargo is handled by dependable professionals.
+                    </p>
+                    <ul class="mt-6 space-y-3 text-gray-700">
+                        <li class="flex items-start">
+                            <svg class="flex-shrink-0 h-6 w-6 text-blue-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg>
+                            <span class="font-medium">Licensed Brokerage:</span> Operating legally with full industry credentials.
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="flex-shrink-0 h-6 w-6 text-blue-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg>
+                            <span class="font-medium">Time-Sensitive Expertise:</span> Specialists in critical, high-value, and expedited freight.
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="flex-shrink-0 h-6 w-6 text-blue-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg>
+                            <span class="font-medium">Risk Mitigation:</span> Comprehensive carrier vetting and insurance tracking.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action / Contact Form Section -->
+    <section id="contact" class="py-16 sm:py-24 bg-teal-700">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center text-white max-w-2xl mx-auto">
+                <h2 class="text-3xl font-bold sm:text-4xl">Ready to Move Your Freight?</h2>
+                <p class="mt-4 text-xl text-blue-200">
+                    Contact us now for a reliable quote or to discuss your complex logistics needs.
+                </p>
+            </div>
+
+            <div class="mt-10 max-w-lg mx-auto bg-white p-8 rounded-xl shadow-2xl">
+                <form action="#" method="POST" class="space-y-4">
+                    <div>
+                        <label for="name" class="block text-sm font-medium text-gray-700">Full Name / Company Name</label>
+                        <input type="text" name="name" id="name" required class="mt-1 block w-full rounded-lg border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 p-3 border">
+                    </div>
+                    <div>
+                        <label for="email" class="block text-sm font-medium text-gray-700">Email Address</label>
+                        <input type="email" name="email" id="email" required class="mt-1 block w-full rounded-lg border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 p-3 border">
+                    </div>
+                    <div>
+                        <label for="details" class="block text-sm font-medium text-gray-700">Load Details / Message</label>
+                        <textarea id="details" name="details" rows="4" required class="mt-1 block w-full rounded-lg border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 p-3 border"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit" class="w-full flex justify-center py-3 px-4 border border-transparent rounded-lg shadow-lg text-lg font-medium text-white bg-green-500 hover:bg-green-600 transition duration-150 transform hover:scale-[1.01]">
+                            Request a Rate
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
+                <!-- Contact Info -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-3 text-teal-700">Contact Details</h3>
+                    <p class="text-sm">Licensed Freight Brokerage</p>
+                    <p class="text-sm">Interprix United LLC</p>
+                    <p class="text-sm mt-2">Email: interprixcripto@gmail.com (Placeholder)</p>
+                    <p class="text-sm">Phone:(817) 767-0017 (Placeholder)</p>
+                </div>
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-3 text-blue-400">Quick Links</h3>
+                    <ul class="space-y-1">
+                        <li><a href="#services" class="text-sm hover:text-blue-300 transition duration-150">Our Services</a></li>
+                        <li><a href="#mission" class="text-sm hover:text-blue-300 transition duration-150">Our Mission</a></li>
+                        <li><a href="#" class="text-sm hover:text-blue-300 transition duration-150">TCR Compliance Page</a></li>
+                    </ul>
+                </div>
+                <!-- Compliance -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-3 text-blue-400">Compliance</h3>
+                    <p class="text-sm">FMCSA Licensed & Insured</p>
+                    <p class="text-sm">Broker Authority: MC-1722477 (Placeholder)</p>
+                    <p class="text-sm mt-4">&copy; 2024 Interprix United LLC. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
